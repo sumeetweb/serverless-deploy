@@ -34,10 +34,10 @@ Javascript action that runs a Serverless deploy using the serverless-python-requ
 - name: Set up Python
   uses: actions/setup-python@v2
   with:
-    python-version: 3.8  # Update with your python version
+    python-version: 3.7  # Update with your python version
 
 - name: Serverless Deploy
-  uses: dhollerbach/actions.serverless-with-python-requirements@master
+  uses: sumeetweb/serverless-deploy@master
   with:
     args: ''  # any deploy arguments you want to pass
   env:
@@ -54,10 +54,10 @@ Javascript action that runs a Serverless deploy using the serverless-python-requ
 - name: Set up Python
   uses: actions/setup-python@v2
   with:
-    python-version: 3.8  # Update with your python version
+    python-version: 3.7  # Update with your python version
 
 - name: Serverless Deploy
-  uses: dhollerbach/actions.serverless-with-python-requirements@master
+  uses: sumeetweb/serverless-deploy@master
   with:
     args: ''  # any deploy arguments you want to pass
   env:

@@ -1,0 +1,15 @@
+name: 'Serverless with Python Requirements'
+description: 'Javascript action that runs a Serverless deploy using the serverless-python-requirements plugin.'
+inputs:
+  args:
+    default: ''
+    description: 'Additional arguments you want to set'
+    required: false
+
+runs:
+  using: 'node12'
+  main: 'index.js'
+
+branding:
+  icon: 'fast-forward'
+  color: 'red'

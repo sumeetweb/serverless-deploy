@@ -1,0 +1,25 @@
+{
+  "name": "serverless-deploy",
+  "version": "1.0.0",
+  "description": "This actions installs Serverless and runs a deploy using the serverless-python-requirements plugin. You must install the exeq npm package for this plugin to work successfully.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sumeetweb/serverless-deploy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sumeetweb/serverless-deploy/issues"
+  },
+  "homepage": "https://github.com/sumeetweb/serverless-deploy#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.3",
+    "@actions/github": "^2.1.1",
+    "exeq": "^3.0.0"
+  }
+}

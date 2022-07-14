@@ -1,4 +1,4 @@
-name: 'Serverless Deploy'
+name: 'Serverless Deployment'
 description: 'Javascript action that runs a Serverless deploy using the serverless-python-requirements plugin.'
 inputs:
   args:
